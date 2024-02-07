@@ -1,0 +1,7 @@
+<div style="margin-top: 20px;">
+  <form [formGroup]="moneyForm" (ngSubmit)="onSubmit()">
+    <label for="amount">Enter Amount:</label>
+    <input type="text" id="amount" formControlName="amount" placeholder="Enter amount" />
+    <button type="submit">Submit</button>
+  </form>
+</div>
